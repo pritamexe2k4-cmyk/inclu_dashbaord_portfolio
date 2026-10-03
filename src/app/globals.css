@@ -12,9 +12,9 @@
 
 @theme inline {
   /* Fonts — map to next/font variables (fixes prior circular --font-sans) */
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
-  --font-heading: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, monospace;
+  --font-heading: ui-sans-serif, system-ui, sans-serif;
 
   /* shadcn semantic color bridge */
   --color-background: var(--background);

@@ -11,7 +11,7 @@ export function AdminCheckinQr({ bookingId }: { bookingId: string }) {
 
   useEffect(() => {
     let active = true;
-    if (!state.token) { setImage(null); return; }
+    if (!state.token) return;
     QRCode.toDataURL(JSON.stringify({ type: "incluhub-studio-checkin", token: state.token }), {
       width: 320,
       margin: 2,
